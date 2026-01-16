@@ -4,6 +4,9 @@ used mathjs's .eval() fn
 
 ##  Project Timeline
 
+### as on 16 Jan 2026 start
+![Preview 16 Jan](documentation/16.png)
+
 ### as on 15 Jan 2026 start
 ![Preview 15 Jan](documentation/15.png)
 
