@@ -47,12 +47,12 @@ export default function Home() {
     }
     return (
         <div className="flex flex-col justify-center items-center w-full h-screen">
-            <div className="bg-white/21 p-2 pt-1 md:p-8 md:pt-4 w-fit border-white/60 border-4">
+            <motion.div initial={{ opacity: 0, x: -500 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.8 }} className="bg-white/21 p-2 pt-1 md:p-8 md:pt-4 w-fit border-white/60 border-4">
                 <motion.div initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} className="text-center font-bold text-slate-200 uppercase">
                     Calculator
                 </motion.div>
                 <div>
-                    <motion.div initial={{ opacity: 0, scale: 25 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} className="select-none bg-sky-200 border-sky-600 rounded-xl px-1 md:px-4 w-full py-1 md:py-3 text-sm md:text-xl m-0.5 md:m-2 font-mono text-left min-h-8 md:min-h-12 flex items-center">
+                    <motion.div initial={{ opacity: 0, scale: 25 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} className="select-none bg-sky-200 border-sky-600 rounded-xl px-2 md:px-1 w-full py-3 md:py-1 text-xl md:text-2xl m-1 md:m-0.5 font-mono text-left min-h-12 md:min-h-8 flex items-center">
                         {screentext.slice(0, cursorPosition)}
                         <span className="animate-pulse text-black">|</span>
                         {screentext.slice(cursorPosition)}
@@ -67,7 +67,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </div>
     );
 }
