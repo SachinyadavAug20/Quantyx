@@ -40,8 +40,8 @@ export default function Home() {
             setCursorPosition(result.toString().length);
             setEditable(true);
         } catch (error) {
-            setScreentext("Error");
-            setCursorPosition(5);
+            setScreentext("InVaLiD ?!");
+            setCursorPosition(10);
             setEditable(false);
         }
     }
