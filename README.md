@@ -5,8 +5,12 @@ used mathjs's .eval() fn
 ## Todos
 
 - Added Navbar to my socials
+- Added more btns and animation
 
 ##  Project Timeline
+
+### as on 18 Jan 2026 responsive
+![Preview 18 Jan](documentation/18.png)
 
 ### as on 17 Jan 2026 responsive
 ![Preview 17 Jan](documentation/17.png)

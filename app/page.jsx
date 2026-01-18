@@ -49,7 +49,7 @@ export default function Home() {
     }
     return (
         <div className="flex flex-col w-full min-h-screen">
-            <motion.div className="absolute bg-linear-65 from-purple-500 to-pink-500 w-full h-screen justify-center items-center text-6xl flex text-center z-10" initial={{ opacity: 1 }} animate={{ opacity: 0 }} transition={{ duration: 1.5,ease:easeInOut }}>
+            <motion.div className="absolute bg-linear-65 from-purple-500 to-pink-500 w-full h-screen justify-center items-center text-6xl flex text-center z-10" initial={{ opacity: 1 }} animate={{ opacity: 0,display:"none" }} transition={{ duration: 1.5,ease:easeInOut }}>
                 <div className="flex">
                     Looding <motion.div initial={{ opacity: 0, scale: 1.2 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 1.2 }} transition={{ duration: 0.3, repeat: 10 }}> ... </motion.div>
                 </div>
