@@ -2,6 +2,10 @@
 
 used mathjs's .eval() fn
 
+## Todos
+
+- Added Navbar to my socials
+
 ##  Project Timeline
 
 ### as on 17 Jan 2026 responsive
